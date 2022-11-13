@@ -2,44 +2,44 @@ const partial1 = [
     {
         id: 1,
         name: 'Calculo diferencial',
-        parent: false,
-        children: [],
+        parent: [],
+        children: [7],
         estatus: false,
         partial: 1
     },
     {
         id: 2,
         name: 'Fundamentos de programación',
-        parent: false,
-        children: [],
+        parent: [],
+        children: [8],
         estatus: false,
         partial: 1
     },
     {
         id: 3,
         name: 'Taller de etica',
-        parent: false,
+        parent: [],
         children: [],
         estatus: false,
         partial: 1
     },    {
         id: 4,
         name: 'Matematicas discretas',
-        parent: false,
+        parent: [],
         children: [],
         estatus: false,
         partial: 1
     },    {
         id: 5,
         name: 'Taller de administración',
-        parent: false,
+        parent: [],
         children: [],
         estatus: false,
         partial: 1
     },    {
         id: 6,
         name: 'Fundamentos de investigación',
-        parent: false,
+        parent: [],
         children: [],
         estatus: false,
         partial: 1
