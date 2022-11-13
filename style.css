@@ -6,12 +6,13 @@
 
 html{
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     height: 100vh;
     min-height: 400px;
@@ -19,7 +20,46 @@ body{
 }
 
 #app{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 500px;
-    background-color: royalblue;
+    height: 600px;
+    max-width: 1100px;
+}
+
+
+.class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 85px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.class__name{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    user-select: none;
+}
+
+
+.class__disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+
+.class__selected{
+    background-color: rgb(50, 186, 124);
 }
